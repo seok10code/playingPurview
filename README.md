@@ -27,14 +27,3 @@ To ensure **periodic metadata ingestion**, I automated this process using **Azur
 - **Azure Data Lake Storage Gen2** – Metadata storage  
 - **Azure Data Factory** – Automated data ingestion  
 
-### 📂 File Structure
-
-```plaintext
-├── README.md
-├── src/
-│   ├── ingest_metadata.py   # Script to extract and upload metadata
-│   ├── config.yaml          # Configuration settings
-│   ├── utils.py             # Utility functions
-└── docs/
-    ├── architecture.png      # System architecture diagram
-    └── process_flow.md       # Detailed process documentation
